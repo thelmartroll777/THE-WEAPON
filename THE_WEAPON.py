@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import os
-from openai import OpenAI
+from openai
 
 # Título de la aplicación
 st.title("🔍 Chatbot Analista de Datos (con OpenAI)")
