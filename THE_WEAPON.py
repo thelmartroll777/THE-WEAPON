@@ -13,7 +13,7 @@ api_key = st.text_input("🔑 Ingresa tu clave de API de OpenAI:", type="passwor
 @st.cache_data
 def load_data():
     try:
-        df = pd.read_csv(r"D:\Mario\7mo-8vo semestre\IA\Labs\LAB 9\VS LAB9\FuelConsumption (1).csv")
+        df = df = pd.read_csv("FuelConsumption (1).csv")
         return df
     except Exception as e:
         st.error(f"No se pudo cargar el dataset: {e}")
